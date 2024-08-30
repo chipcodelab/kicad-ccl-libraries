@@ -1,0 +1,202 @@
+(footprint "L_7.0x6.6x3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MWSA0603S-330MT-")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "bce38a2b-68ea-4e5a-b818-3d6f31bdd931")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "L_7.0x6.6x3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2e7d875d-8b6f-4c31-bcb3-46d3ba578e41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "L_7.0x6.6x3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01ecffa4-e04a-4f09-82ba-5a4f7f46a385")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2905/MWSA-S_Series_DS.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4859f63f-0c8e-4de8-b9c3-aa99da70df6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Shielded Drum Core, Wirewound Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f12117-7d71-42ff-8253-cd1702fbb762")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 3.3)
+		(end 3.5 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb18db26-f538-4e6d-a857-54afa2aee7ca")
+	)
+	(fp_line
+		(start 3.5 -3.3)
+		(end -3.5 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8437108e-44b9-4510-b4eb-d2f1dfcf899f")
+	)
+	(fp_line
+		(start -4.375 -3.65)
+		(end 4.375 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd2d7578-72c3-420d-95e3-74dc11312028")
+	)
+	(fp_line
+		(start -4.375 3.65)
+		(end -4.375 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5724921-4446-42c8-ab1b-cc949465bd11")
+	)
+	(fp_line
+		(start 4.375 -3.65)
+		(end 4.375 3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1036c517-71c0-498c-bbaa-49476062f71d")
+	)
+	(fp_line
+		(start 4.375 3.65)
+		(end -4.375 3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52f9a9ce-2209-4c0e-9e67-c98b97e4733f")
+	)
+	(fp_line
+		(start -3.5 -3.3)
+		(end 3.5 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0da6edc-f4ea-40a1-8448-05669b679771")
+	)
+	(fp_line
+		(start -3.5 3.3)
+		(end -3.5 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e0e215c-5eda-4bd3-8aeb-ea696240dc9b")
+	)
+	(fp_line
+		(start 3.5 -3.3)
+		(end 3.5 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e9f477f-b8b0-4a10-a7ea-0dc96ccaeb80")
+	)
+	(fp_line
+		(start 3.5 3.3)
+		(end -3.5 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fc0a6e8-b8a1-4c4d-9009-0a3432c9dfbc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "07ec29cf-b766-4a30-8def-883d3a372146")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.8 0)
+		(size 2.65 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0f848f7c-d5c9-46e7-8cb5-71da01a01f63")
+	)
+	(pad "2" smd rect
+		(at 2.8 0)
+		(size 2.65 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e08c954-5865-470a-8728-67d8db722798")
+	)
+	(model "${CCL_3DMODEL_DIR}/CCL_Inductors_SMD.3dshapes/L_7.0x6.6x3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
