@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "03156401010"
+		(property "Footprint" "CCL_BNCs_Female:031-5640-1010"
 			(at 26.0909 -94.8532 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(descr "031-5640-1010-1")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -7.62 0)
+		(at 0 0.254 0)
 		(layer "F.SilkS")
 		(uuid "83994521-9025-4a27-8aa5-55897943cec7")
 		(effects
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "031-5640-1010"
-		(at 0 10.16 0)
+		(at 0 9.398 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "BNC Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole, Right Angle Solder"
 		(at 0 5.712 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -148,8 +148,8 @@
 		(uuid "73e9f03b-783a-412d-8c0a-0cc975c4bb9f")
 	)
 	(fp_line
-		(start -8.2 -8.636)
-		(end 8.2 -8.636)
+		(start -8.2 -7.62)
+		(end 8.2 -7.62)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -159,7 +159,7 @@
 	)
 	(fp_line
 		(start -8.2 8.382)
-		(end -8.2 -8.636)
+		(end -8.2 -7.62)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,7 +168,7 @@
 		(uuid "15c1c1a8-6e6e-4519-bd48-0634687a2404")
 	)
 	(fp_line
-		(start 8.2 -8.636)
+		(start 8.2 -7.62)
 		(end 8.2 8.382)
 		(stroke
 			(width 0.1)
@@ -270,7 +270,7 @@
 		(remove_unused_layers no)
 		(uuid "92bf7f74-a9b6-40a4-8df1-4cd143fa0e5e")
 	)
-	(model "/Users/chatura/Documents/KiCad/git-kicad-ccl-libraries/3dmodels/CCL_BNC_Female.3dshapes/031-5640-1010.stp"
+	(model "${CCL_3DMODEL_DIR}/CCL_BNC_Female.3dshapes/031-5640-1010.stp"
 		(offset
 			(xyz 0 24.5 8)
 		)
