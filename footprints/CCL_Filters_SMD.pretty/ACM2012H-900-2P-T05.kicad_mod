@@ -1,0 +1,236 @@
+(footprint "ACM2012H-900-2P-T05"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ACM2012H-T05")
+	(tags "Filter")
+	(property "Reference" "FL**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "acdcb8ea-e8c6-4e9f-ae94-42fc84cb0166")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ACM2012H-900-2P-T05"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "035cf154-b0e7-41fc-aec8-2ff1192e2e49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "ACM2012H-900-2P-T05"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0d7bf29-cabd-49eb-bae6-b7ee75d05971")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2012h-t05_en.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "639641cf-5456-4f62-aeb1-82c8f9cc729d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 300mA DCR 300mOhm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3997c7b4-f295-4796-9c1b-03bcb14ed2bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -0.4)
+		(end -1.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "369789f3-ce37-4734-90c7-c06937f46e90")
+	)
+	(fp_line
+		(start -1.7 -0.4)
+		(end -1.7 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c187e2c5-0be6-494e-8748-ad774a67ec25")
+	)
+	(fp_arc
+		(start -1.8 -0.4)
+		(mid -1.75 -0.45)
+		(end -1.7 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afa4a63f-54c6-4ffd-8aba-9cb7d947e4f9")
+	)
+	(fp_arc
+		(start -1.7 -0.4)
+		(mid -1.75 -0.35)
+		(end -1.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d321fad-ee43-443f-af92-fc9ecbfe717c")
+	)
+	(fp_line
+		(start -2.15 -1.6)
+		(end 2.15 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce8859fd-36cf-472e-9210-fd5bc49a02d8")
+	)
+	(fp_line
+		(start -2.15 1.6)
+		(end -2.15 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7ce3d2b-9249-43fb-b88d-fbb3cb83a2df")
+	)
+	(fp_line
+		(start 2.15 -1.6)
+		(end 2.15 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00455739-674c-470b-81fb-1449816e8f38")
+	)
+	(fp_line
+		(start 2.15 1.6)
+		(end -2.15 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9bc2298-ecda-4a4a-9459-4dfc61f0ca31")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "568fef77-ea1c-4161-af66-1326e8509523")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d016180-2092-4d9a-86e9-4fb0e8852420")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfe45777-c7c5-442a-ae00-b88128662825")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59473e20-4baf-47e0-bbfe-9f047d2cf9f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f4e1b134-b789-40fc-8e79-c409eeb6a92d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.975 -0.4 90)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66cea12d-9b3b-4504-a331-bfb986bffa36")
+	)
+	(pad "2" smd rect
+		(at -0.975 0.4 90)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36273593-acb4-4be2-8f53-92aabcad820e")
+	)
+	(pad "3" smd rect
+		(at 0.975 0.4 90)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd92fb34-b106-413b-8222-ff8007dade1e")
+	)
+	(pad "4" smd rect
+		(at 0.975 -0.4 90)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b41311ec-04a3-4adc-be27-addfc36c9933")
+	)
+	(model "${CCL_3DMODEL_DIR}/CCL_Filters.3dshapes/ACM2012H-900-2P-T05.stp"
+		(offset
+			(xyz -0.45 19.7 0.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
