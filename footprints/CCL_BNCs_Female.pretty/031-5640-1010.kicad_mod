@@ -270,9 +270,9 @@
 		(remove_unused_layers no)
 		(uuid "92bf7f74-a9b6-40a4-8df1-4cd143fa0e5e")
 	)
-	(model "${CCL_3DMODEL_DIR}/CCL_BNC_Female.3dshapes/031-5640-1010.stp"
+	(model "${CCL_3DMODEL_DIR}/CCL_BNCs_Female.3dshapes/031-5640-1010.stp"
 		(offset
-			(xyz 0 24.5 8)
+			(xyz 0 24.5 8.1)
 		)
 		(scale
 			(xyz 1 1 1)
