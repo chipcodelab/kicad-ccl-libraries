@@ -9,21 +9,21 @@ Download latest libraries from [KiCad CCL Libraries](https://github.com/chipcode
 * Open KiCad EDA software and click on "Prefferences -> Configure Paths"
 * Now configure paths as following image and click "ok" and save.
 
-![KiCad CCL Libraries - Configure paths](/docs/ccl-kicad-libraries-configure-paths.png)
+![KiCad CCL Libraries - Configure paths](./docs/ccl-kicad-libraries-configure-paths.png)
 
 ## Add CCL symbols libraries
 * Open KiCad EDA software and click on "Prefferences -> Manage Symbol Libraries"
 * Click on "+" sign and select all the CCL KiCad symbols
 * Click on "Ok" and save
 
-![KiCad CCL Libraries - Add symbols](/docs/ccl-kicad-libraries-add-symbols.png)
+![KiCad CCL Libraries - Add symbols](./docs/ccl-kicad-libraries-add-symbols.png)
 
 ## Add CCL footprint libraries
 * Open KiCad EDA software and click on "Prefferences -> Manage Footprint Libraries"
 * Click on "+" sign and select all the CCL KiCad footprints
 * Click on "Ok" and save
 
-![KiCad CCL Libraries - Add symbols](/docs/ccl-kicad-libraries-add-footprints.png)
+![KiCad CCL Libraries - Add symbols](./docs/ccl-kicad-libraries-add-footprints.png)
 
 Congratulations! You have successfully added KiCad CCL Libraries, eliminating symbol and footprint missing issues and ERC (Electrical Rule Checker) warnings in CHIPCODELAB opensource hardware development projects. If you encounter any problems while using the library, feel free to raise an issue. 
 
